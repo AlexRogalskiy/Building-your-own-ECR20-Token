@@ -1,7 +1,7 @@
 pragma solidity 0.6.6;
 
 // ----------------------------------------------------------------------------
-// 'Zoah Hedges-Stonks' token contract
+// 'ZoahHedgesStonks' token contract
 //
 // Deployed to : 0xFDe81B4EF118E990ae6773dfB32Fa93c1363A809
 // Symbol      : ZHS
@@ -99,7 +99,7 @@ contract Owned {
 // ERC20 Token, with the addition of symbol, name and decimals and assisted
 // token transfers
 // ----------------------------------------------------------------------------
-contract Zoah Hedges-Stonks is ERC20Interface, Owned, SafeMath {
+contract ZoahHedgesStonks is ERC20Interface, Owned, SafeMath {
     string public symbol;
     string public  name;
     uint8 public decimals;
