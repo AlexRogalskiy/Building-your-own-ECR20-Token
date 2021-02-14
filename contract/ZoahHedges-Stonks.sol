@@ -1,16 +1,16 @@
 pragma solidity 0.6.6;
 
 // ----------------------------------------------------------------------------
-// 'GGMToken' token contract
+// 'Zoah Hedges-Stonks' token contract
 //
-// Deployed to : 0xFEB02D9383C49A8373F88e82EbCecB553c1837bf
-// Symbol      : GGM
-// Name        : GGMToken
-// Total supply: 100000000
+// Deployed to : 0xFDe81B4EF118E990ae6773dfB32Fa93c1363A809
+// Symbol      : ZHS
+// Name        : Zoah Hedges-Stonks
+// Total supply: 100000000000000000000
 // Decimals    : 18
 //
-// Enjoy.
-//
+// https://twitter.com/Zoah_HS/status/1355074685566939137
+// https://github.com/vahiwe/Building-your-own-ECR20-Token
 // (c) by Ahiwe Onyebuchi Valentine.
 // ----------------------------------------------------------------------------
 
@@ -99,7 +99,7 @@ contract Owned {
 // ERC20 Token, with the addition of symbol, name and decimals and assisted
 // token transfers
 // ----------------------------------------------------------------------------
-contract GGMToken is ERC20Interface, Owned, SafeMath {
+contract Zoah Hedges-Stonks is ERC20Interface, Owned, SafeMath {
     string public symbol;
     string public  name;
     uint8 public decimals;
@@ -113,12 +113,12 @@ contract GGMToken is ERC20Interface, Owned, SafeMath {
     // Constructor
     // ------------------------------------------------------------------------
     constructor() public {
-        symbol = "CCM";
-        name = "CCMToken";
-        decimals = 0;
-        _totalSupply = 100000000;
-        balances[0x4B6408E5De3D348C0cd571E67Aa2dDBDe563AD58] = _totalSupply;
-        emit Transfer(address(0), 0x4B6408E5De3D348C0cd571E67Aa2dDBDe563AD58, _totalSupply);
+        symbol = "ZHS";
+        name = "Zoah Hedges-Stonks";
+        decimals = 18;
+        _totalSupply = 100000000000000000000;
+        balances[0xFDe81B4EF118E990ae6773dfB32Fa93c1363A809] = _totalSupply;
+        emit Transfer(address(0), 0xFDe81B4EF118E990ae6773dfB32Fa93c1363A809, _totalSupply);
     }
 
 
